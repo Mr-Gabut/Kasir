@@ -1,5 +1,3 @@
-#usr/bin/python3
-#silahkan kalo mau recode
 garis = "\33[37;1m====================================="
 total = 0
 barang = ['\33[1;33m']
@@ -9,7 +7,18 @@ h="\33[0;32m"
 m="\33[31;1m"
 p="\33[37;1m"
 k="\33[1;33m"
-print("By : Faizal")
+
+os.system('git pull')
+time.sleep(2)
+os.system('clear)
+print(f"""
+{m}╭━━╮╭━━━┳╮╱╱╭━━━┳━╮╱╭┳╮╱╱╭┳━━━╮
+┃╭╮┃┃╭━╮┃┃╱╱┃╭━╮┃┃╰╮┃┃╰╮╭╯┃╭━╮┃
+┃╰╯╰┫┃╱┃┃┃╱╱┃┃╱┃┃╭╮╰╯┣╮╰╯╭┫┃╱┃┃
+{p}┃╭━╮┃╰━╯┃┃╱╭┫╰━╯┃┃╰╮┃┃╰╮╭╯┃╰━╯┃
+┃╰━╯┃╭━╮┃╰━╯┃╭━╮┃┃╱┃┃┃╱┃┃╱┃╭━╮┃
+╰━━━┻╯╱╰┻━━━┻╯╱╰┻╯╱╰━╯╱╰╯╱╰╯╱╰╯V {m}1.0
+{m}[+] {k}Author {p}:{k} Mr-Gabut""")
 while True:
   print(f"""{p}=====================\n{h}Daftar Barang\n{p}=====================
 {k}1. {h}Bala bala\t1500
@@ -53,4 +62,4 @@ elif uang == total:
   print(f"{h}Uangnya pas")
 else:
   print(f"{m}Uang anda kurang", uang - total)
-    
+os.system('cat README.md')
