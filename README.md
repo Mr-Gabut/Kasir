@@ -1,7 +1,7 @@
 # Kasir
 Kasir Unik simple Python3
 
-##Usasge
+## Usasge
 
 ```
 $ cd Kasir
