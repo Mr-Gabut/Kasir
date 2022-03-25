@@ -5,5 +5,5 @@ Kasir Unik simple Python3
 
 ```
 $ cd Kasir
-$ python fire.py
+$ python3 fire.py
 ```
