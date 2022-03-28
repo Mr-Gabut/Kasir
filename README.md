@@ -1,5 +1,5 @@
-# Kasir
-Kasir Unik simple Python3
+# Kasir Tolol
+Kasir Unik simple Python3 yahh mayan lah buat tugas kuliah jon
 
 ### Install
 
@@ -14,4 +14,4 @@ $ cd Kasir
 $ python3 fire.py
 ```
 
-> Follow [Here](https://facebook.com/salma.maulida.27)
+> Follow [Here](https://www.facebook.com/salma.maulidia.77)
