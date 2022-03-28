@@ -14,4 +14,4 @@ $ cd Kasir
 $ python3 fire.py
 ```
 
-> Follow [Here](https://facebook.com/salma.maulidia.27)
+> Follow [Here](https://facebook.com/salma.maulida.27)
