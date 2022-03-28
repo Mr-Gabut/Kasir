@@ -1,9 +1,17 @@
 # Kasir
 Kasir Unik simple Python3
 
-## Usage
+### Install
+
+```
+pkg install git && git clone https://github.com/Kasir.git
+```
+
+### Usage
 
 ```
 $ cd Kasir
 $ python3 fire.py
 ```
+
+> Follow [Here](https://github.com/salma.maulidia.27)
