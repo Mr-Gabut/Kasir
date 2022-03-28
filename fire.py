@@ -10,7 +10,7 @@ k="\33[1;33m"
 
 os.system('git pull')
 time.sleep(2)
-os.system('clear)
+os.system('clear')
 print(f"""
 {m}╭━━╮╭━━━┳╮╱╱╭━━━┳━╮╱╭┳╮╱╱╭┳━━━╮
 ┃╭╮┃┃╭━╮┃┃╱╱┃╭━╮┃┃╰╮┃┃╰╮╭╯┃╭━╮┃
@@ -27,6 +27,7 @@ while True:
 {k}4. {h}Janda\t\t10000
 {p}=====================""")
   kode = int(input(f"{k}Masukan kode barang : {m}"))
+  print(total)
   if kode == 1:
     barang.append('Bala bala')
     harga.append(1500)
@@ -47,7 +48,8 @@ while True:
     print(f"{m}Kode tidak valid!")
   lanjut = input(f"{k}Lanjut belanja? y/n : {m}")
   if lanjut == 'n':
-    print(f"{m}TERIMA KASIH ATAS KUNJUNGANNYA{p}\n")
+    time.sleep(2)
+    print(f"{m}\nTERIMA KASIH ATAS KUNJUNGANNYA{p}\n")
     break
 
 print(garis)
